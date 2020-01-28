@@ -1,75 +1,35 @@
-# React Clicker Game [Batman Ver.]
+# ChowTown
 
-App is a Batman themed memory game requiring you to click on each option only once.
+App encourages exploration of dining options locally and internationally. It lets the user search for restaurants, save them and create colletions as a way to plan food adventures.
 
-[Click here](https://beanstalk88.herokuapp.com/) for an interactive demo.
+[Click here](https://alex0n0.github.io/ChowTown/) for an interactive demo.
 
-![screenshot 1](/public/screenshot1.png)
+![screenshot 1](/public/screenshot_1.png)
 
 ## Features
 
-- Single page
-- Responsive
-- Randomised options after each click
-- Tracks current score + session high score
-- Shake animation after loss
+- Responsive single page application
+- Search for restaurants based on food category and location
+- Save restaurants of interest and organise them into collections
+- Uses APIs from Yelp and Google (Geocoding)
 
 ## Getting Started
 
-Begin by cloning the [reactclickergame](https://github.com/alex0n0/reactclickergame) repository, install dependencies and start the React app:
+Begin by cloning the [ChowTown](https://github.com/alex0n0/ChowTown) repository, install dependencies and start the React app:
 
 ```terminal
-git clone https://github.com/alex0n0/reactclickergame.git
-cd reactclickergame
-npm install
-npm startreactapp
-```
-
-## Folder Structure
-
-```text
-reactclickergame/
-├── public/
-│   ├── background.jpg <- application background
-│   ├── batman-blk.jpg <- clicker button emblem
-│   ├── batman.png <- image above background
-│   ├── index.html <- index file with bootstrap.min.css link
-│   ├── instructionsimage.jpg <- instructions panel background
-│   └── logoDC.png <- home link logo
-├── src/
-│   ├── components/
-│   │   ├── imagetile.css
-│   │   └── imageTile.js <- image tile component
-│   ├── utils/
-│   │   └── villains.js <- array of villain details
-│   ├── App.css <- styling for app
-│   └── App.js <- body of application
-├── package-lock.json
-├── package.json
-└── server.js
-```
-
-## Deployment
-
-An express server is included to serve the built project for deployment. To run it locally, build the React application and then start the server:
-
-```terminal
-npm run build
-npm run start
-```
-
-To view the application in the browser:
-
-```terminal
-http://localhost:5000
+git clone https://github.com/alex0n0/ChowTown.git
+cd ChowTown
 ```
 
 ## Built With
 
-- React.js
-- Animate.css
-- Express
+- Plain HTML, CSS, JS
+- LocalStorage
+- Fullpage.js
+- Yelp API
+- Google Geocoding API
 
 ## License
 
-This project is MIT licensed. See details [here](https://github.com/alex0n0/reactclickergame/blob/master/LICENSE).
+This project is MIT licensed. See details [here](https://github.com/alex0n0/ChowTown/blob/master/LICENSE).
